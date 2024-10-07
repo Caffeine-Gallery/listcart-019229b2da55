@@ -3,7 +3,7 @@ body {
     line-height: 1.6;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    background-color: #fff0f0;
 }
 
 .container {
@@ -12,12 +12,12 @@ body {
     padding: 20px;
     background-color: #fff;
     border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 10px rgba(255, 0, 0, 0.1);
 }
 
 h1 {
     text-align: center;
-    color: #333;
+    color: #cc0000;
 }
 
 #add-item-form {
@@ -29,14 +29,14 @@ h1 {
     flex-grow: 1;
     padding: 10px;
     font-size: 16px;
-    border: 1px solid #ddd;
+    border: 1px solid #ffcccc;
     border-radius: 4px 0 0 4px;
 }
 
 #add-item-form button {
     padding: 10px 15px;
     font-size: 16px;
-    background-color: #5cb85c;
+    background-color: #ff3333;
     color: #fff;
     border: none;
     border-radius: 0 4px 4px 0;
@@ -52,8 +52,8 @@ h1 {
     display: flex;
     align-items: center;
     padding: 10px;
-    background-color: #f9f9f9;
-    border: 1px solid #ddd;
+    background-color: #fff9f9;
+    border: 1px solid #ffcccc;
     margin-bottom: 5px;
     border-radius: 4px;
 }
@@ -64,7 +64,7 @@ h1 {
 
 #shopping-list li span.completed {
     text-decoration: line-through;
-    color: #888;
+    color: #ff9999;
 }
 
 .toggle-btn, .delete-btn {
@@ -76,9 +76,9 @@ h1 {
 }
 
 .toggle-btn {
-    color: #5cb85c;
+    color: #ff3333;
 }
 
 .delete-btn {
-    color: #d9534f;
+    color: #cc0000;
 }
